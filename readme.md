@@ -14,7 +14,7 @@ The script reads tokens from the tokens.txt file and provides the following form
 ## Installation
 
 - `Download` - [Token-Formatter](https://github.com/Hasbulla00112/Token-Formatter/releases/download/v1.0.2/Token.Formatter.zip)
-- `Extract the archive and run the script.`
+- `Extract the files and open start.bat.`
 
 ### Features
 
