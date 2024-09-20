@@ -52,6 +52,10 @@ with open("formatted_tokens.txt", "w") as output_file:
                 print(f"Invalid Format | Make sure it is Email:Pass:Token: {token}")
                 continue
         elif format_type == "4":
+            if ":" in token:
+                print(f"Invalid Format | Make sure it is just the token: {token}")
+                continue
+            
             url = "https://discord.com/api/v9/users/@me"
             headers = {
                 "Authorization": f"{token}"
